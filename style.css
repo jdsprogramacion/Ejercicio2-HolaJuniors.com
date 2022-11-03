@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #1E0E62;
+}
+
+nav > h1{
+    font-size: 24px;
+    margin-left: 111px;
+}
+
+nav .email{
+    margin-right: 200px;
+    border: 2px solid #EBEAED;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+}
+
+.perfil{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    justify-content: space-around;
+    align-items: center;
+    background: #f1f1f1;
+}
+
+.perfil .perfil__name{
+    width: 500px;
+    height: 400px;
+    padding-top: 30px;
+}
+
+.perfil .perfil__name .perfil__name-h2{
+    font-size: 42px;
+    color: #1E0E62;
+    margin: 15px 0;
+}
+
+.perfil .perfil__name .perfil__name-p{
+    color: #15143986;
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+
+.perfil .perfil__img {
+    width: 500px;
+    height: 450px;
+    overflow: hidden;
+    border-radius: 50px;
+    background-image: url(img/img01.png);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.habilidades{
+    width: 100%;
+    height: 600px;
+    border-top: 1px solid #dad5d3;
+    background: #f1f1f1;
+}
+
+.habilidades .habilidades__div{
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+.habilidades .habilidades__div .habilidades__div-h2{
+    font-size: 42px;
+    color: #1E0E62;
+    margin-bottom: 40px;
+}
+
+.habilidades .habilidades__div .habilidades__div-p{
+    color: #1E0E62;
+    font-size: 22px;
+    color: rgba(21, 20, 57, 0.525);
+}
+
+.habilidades__cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.habilidades__cards .card{
+    width: 30%;
+    height: 150px;
+    padding: 20px;
+    text-align: center;
+}
+
+.habilidades__cards .card .card__h3{
+    color: #1E0E62;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.habilidades__cards .card .card__p{
+    font-size: 18px;
+    color: rgba(21, 20, 57, 0.525);
+}
+
+
+.exp{
+    width: 100%;
+}
+
+.exp__div .exp__ctn{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.exp__div .exp__ctn .exp__ctn-h2{
+    font-size: 42px;
+    color: #1E0E62;
+    margin-bottom: 50px;
+}
+
+.exp__div .exp__ctn .exp__ctn-p{
+    font-size: 22px;
+    color: rgba(21, 20, 57, 0.525);
+}
+
+.exp .exp__div .exp__button{
+    width: 200px;
+    height: 50px;
+    background: #25DAC5;
+    border-radius: 100px;
+    text-align: center;
+    padding: 13px 0;
+    margin: auto;
+}
+
+.exp .exp__div .exp__button > a{
+    font-size: 18px;
+    color: #fff;
+}
+
+.exp .exp__cards{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.exp .exp__cards .exp__cards-ctn{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.exp__cards .exp__cards-ctn .card{
+    width: 30%;
+    height: 700px;
+}
+
+.exp__cards .exp__cards-ctn .card i{
+    width: 20px;
+    height: 20px;
+}
+
+.exp__cards .exp__cards-ctn .card > img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+
+.exp__cards .exp__cards-ctn .card > h3{
+    font-size: 22px;
+    color: #1E0E62;
+    margin-bottom: 20px;
+}
+
+.exp__cards .exp__cards-ctn .card > p{
+    font-size: 18px;
+    color: rgba(21, 20, 57, 0.525);
+}
+
+
+.footer{
+    width: 100%;
+    height: 500px;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer .contacto .contacto__h4{
+    font-size: 58px;
+    color: #1E0E62;
+}
+
+.footer .contacto > a{
+    font-size: 50px;
+}
+
+.footer .redes__sociales{
+    display: flex;
+    width: 150px;
+    height: 30px;
+    margin-top: 100px;
+    justify-content: space-around;
+}
+
+.footer .redes__sociales > img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:750px) {
+    nav{
+        height: 70px;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    nav > h1{
+        font-size: 24px;
+        margin-left: 0;
+    }
+
+    nav .email{
+        width: 100px;
+        height: 40px;
+        border-radius: 100px;
+        margin-right: 10px;
+    }
+    
+    nav .email > a{
+        font-size: 16px;
+
+    }
+    .perfil{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .perfil .perfil__name{
+        width: 100%;
+    }
+
+    .perfil .perfil__name .perfil__name-h2{
+        font-size: 30px;
+        margin-left: 20px;
+    }
+
+    .perfil .perfil__name .perfil__name-p{
+        margin-left: 22px;
+    }
+
+    .perfil .perfil__img{
+        width: 90%;
+        height: 500px;
+        margin: 20px 0 30px 0;
+    }
+
+    .habilidades{
+        padding: 10px;
+        height: 1000px;
+    }
+
+    .habilidades .habilidades__cards{
+        flex-direction: column;
+    }
+
+    .habilidades .habilidades__cards .card{
+        margin: auto;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .exp .exp__div .exp__button{
+        margin-top: 100px;
+    }
+
+    .exp .exp__cards .exp__cards-ctn{
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+        margin: 10px;
+        margin: auto;
+    }
+
+    .exp__cards .exp__cards-ctn .card{
+        width: 100%;
+        height: 550px;
+        margin: 30px auto;
+    }
+
+    .exp__cards .exp__cards-ctn .card > img{
+        width: 100%;
+        height: 380px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+    .footer{
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+    }
+
+    .footer .contacto{
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .footer .contacto .contacto__h4{
+        font-size: 22px;
+    }
+
+    .footer .contacto > a{
+        font-size: 22px;
+    }
+
+    .footer .redes__sociales{
+        margin: 30px;
+    }
+
+    .footer .redes__sociales > img{
+        width: 24px;
+        height: 24px;
+    }
+}   
+
